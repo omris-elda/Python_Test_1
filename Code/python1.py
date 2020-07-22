@@ -137,14 +137,20 @@ def three(arg1):
 
 def four(arg1):
 	pass
-# 	number = 0
-# 	strlist = arg1.split(" ")
-# 	for i in range(0, len(strlist)):
-# 		strlist[i] = int(strlist[i])
-# 		for n in strlist[i]:
-# 			number += n
-# 	return number
-# print(four("555 75 45"))
+	#number = 0
+	finalnumber = 0
+	strlist = arg1.split(" ")
+	for i in range(0, len(strlist)):
+		number = 0
+		for n in strlist[i]:
+			strlist[i] = int(strlist[i])
+			n = int(n)
+			number += n
+			if number > finalnumber:
+				finalnumber = number
+		
+	return finalnumber
+print(four("555 75 45"))
 	# <QUESTION 5>
 
     # Given a large string that represents a csv, the structure of each record will be as follows:
@@ -171,6 +177,11 @@ def four(arg1):
 	# help(str) and help(list), you might also need to use a function that can create a list of numbers for you, try help(range).
 
 def five(input):
+	# names = []
+	# newlist = input.split(",")
+	# for word in newlist:
+	# 	if 
+		
 	return []
 
 	# <QUESTION 6>
