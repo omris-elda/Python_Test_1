@@ -67,20 +67,23 @@ def one(input1, input2):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-	input = input.upper()
-	substring = "bert"
-	if substring in input:
-		beglet = input[:input.find(substring)]
-		newstring = input[beglet:]
-		newstring = input.replace(substring, "")
+	pass
+	# input = input.lower()
+	# substring = "bert"
+	# head, sep, tail = input.rpartition(substring)
+	# print(head)
+	# if substring in input:
+	# 	beglet = input[:input.find(substring)]
+	# 	newstring = input[beglet:]
+	# 	newstring = input.replace(substring, "")
 
-		if substring in newstring:
-			endlet = newstring[endlet:]
-			newstring = newstring[:endlet]
-			newstring = newstring.replace(substring, "")
-			return newstring
-	else:
-		return ""
+	# 	if substring in newstring:
+	# 		endlet = newstring[endlet:]
+	# 		newstring = newstring[:endlet]
+	# 		newstring = newstring.replace(substring, "")
+	# 		return newstring
+	# else:
+	# 	return ""
 
 
 	# <QUESTION 3>
